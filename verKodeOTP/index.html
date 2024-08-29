@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Lades</title>
+    <link rel="stylesheet" href="kodeOtp.css">
+</head>
+
+<body>
+    <div class="frame">
+        <div class="contain">
+            <ul class="ul-contain">
+                <h1 class="H1-contain">Kode OTP Verifikasi</h1>
+                <li>Silahkan Periksa Email Anda Untuk </li>
+                <li>Melihat Kode OTP Verifikasi</li>
+                <br>
+            </ul>
+        </div>
+        <div class="form-otp">
+            <!-- form otp -->
+            <!-- form otp -->
+            <form action="verkodeotp.php" method="POST">
+                <label class="label" for="kode_otp">Kode OTP</label>
+                <input type="number" placeholder="Masukkan Kode OTP" id="kode_otp" name="kode_otp" required />
+
+                <div class="btn">
+                    <a type="button" class="btn-kirim-ulang" href="proses_kirimkodeotp.php">Kirim Ulang Kode Otp</a>
+                    <button type="submit" class="btn-verifikasi">Verifikasi</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <!-- form otp end -->
+    <!-- footer -->
+    <div class="footer">
+
+        <h2 class="cap">© 2023 Di Develop oleh P - RESH</h2>
+    </div>
+    <!-- footer end -->
+</body>
+
+</html>
